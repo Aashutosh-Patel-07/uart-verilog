@@ -1,4 +1,4 @@
-# UART Transmitter/Receiver with Parity and Error Detection — Verilog
+# UART Transmitter/Receiver with Parity and Error Detection - Verilog
 
 A complete UART (Universal Asynchronous Receiver/Transmitter) implementation in Verilog, supporting configurable parity checking and frame error detection. Built and verified using **Icarus Verilog** and **GTKWave**.
 
@@ -6,7 +6,7 @@ A complete UART (Universal Asynchronous Receiver/Transmitter) implementation in 
 
 ## What is UART?
 
-UART is one of the simplest and most widely used serial communication protocols — it's how microcontrollers talk to sensors, GPS modules, Bluetooth chips, and even your laptop's serial console. Unlike SPI or I2C, UART needs no clock signal between devices — both sides just agree on a baud rate beforehand.
+UART is one of the simplest and most widely used serial communication protocols - it's how microcontrollers talk to sensors, GPS modules, Bluetooth chips, and even your laptop's serial console. Unlike SPI or I2C, UART needs no clock signal between devices — both sides just agree on a baud rate beforehand.
 
 A UART frame looks like this:
 
